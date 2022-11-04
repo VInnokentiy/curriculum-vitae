@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Vinnokentyi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" alt="тут моя фотка" class="avatar" />
+        <div class="info-text">
+          <h1>Vinokurov Innokentiy</h1>
+          <p>I'm the <strong> Junior Frontend</strong> developer</p>
+          <p>My stack and progress</p>
+          <div class="LoadingHTML">
+            <span></span>
+          </div>
+          <div class="LoadingCSS"></div>
+          <span></span>
+          <div class="LoadingJS"></div>
+          <span></span>
+          <div class="LoadingReact"></div>
+          <span></span>
+          <div class="LoadingBootstrap"></div>
+          <span></span>
+          <h4>My social networks</h4>
+          <div class="networks">
+            <div class="social vk">
+              <a href="https://vk.com/id3806049" target="_blank"
+                ><i class="fa fa-vk fa-2x"></i
+              ></a>
+            </div>
+            <div class="social telegram">
+              <a href="https://t.me/vinnokentyi" target="_blank"
+                ><i class="fa fa-paper-plane fa-2x"></i
+              ></a>
+            </div>
+            <div class="social instagram">
+              <a
+                href="https://instagram.com/keshak10?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                ><i class="fa fa-instagram fa-2x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="draw">
+          <canvas id="canvas" width="670" height="350"></canvas>
+          <div class="toolbox">
+            <button id="decrease">-</button>
+            <span id="size">10</span>
+            <button id="increase">+</button>
+            <input type="color" id="color" />
+            <button id="clear" class="clear">Clear</button>
+          </div>
+        </div>
+      </div>
+      <script src="draw.js"></script>
+    </div>
+
+    <div class="box">
+      <div class="card bg-purple1">
+        <h2>My hobbies</h2>
+        <ol class="list">
+          <li>Fast driving (race)</li>
+          <li>Sport: basketball, snowboard and cybersport</li>
+          <li>Travels, music and cooking</li>
+        </ol>
+      </div>
+
+      <div class="card bg-purple2">
+        <h2>Work experience</h2>
+        <table class="table">
+          <tr>
+            <th>Company</th>
+            <th>Post</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>R&I</td>
+            <td>Helper of projects manager</td>
+            <td>2019 - 2021</td>
+          </tr>
+          <tr>
+            <td>ROLIS</td>
+            <td>Technical support</td>
+            <td>2021 - н.в.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="contact">
+      <h2>Contact with me</h2>
+      <form action="/">
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" placeholder="Enter your name..." />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter email..." />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="text">Message:</label>
+          <textarea id="text" rows="2" cols="15"></textarea>
+        </div>
+        <input type="submit" value="Send!" class="btn" />
+      </form>
+      <div class="navigation">
+        <div class="links">
+          <a class="button" href="myPage.html">Main page</a>
+          <a class="button" href="calc.html">Calc</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
