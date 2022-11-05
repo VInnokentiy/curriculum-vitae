@@ -90,31 +90,45 @@
           <tr>
             <td>ROLIS</td>
             <td>Technical support</td>
-            <td>2021 - н.в.</td>
+            <td>2021 - to current time</td>
           </tr>
         </table>
       </div>
     </div>
     <div class="contact">
       <h2>Contact with me</h2>
-      <form action="/">
+      <form
+        action="/"
+        method="get"
+        onsubmit="alert('This form is not working yet.');return false"
+      >
         <div class="row">
           <div class="form-group">
             <label for="name">Your name:</label>
-            <input type="text" id="name" placeholder="Enter your name..." />
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name..."
+              required
+            />
           </div>
 
           <div class="form-group">
             <label for="email">Your Email:</label>
-            <input type="email" id="email" placeholder="Enter email..." />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter email..."
+              required
+            />
           </div>
         </div>
 
         <div class="form-group">
           <label for="text">Message:</label>
-          <textarea id="text" rows="2" cols="15"></textarea>
+          <textarea id="text" rows="2" cols="15" required></textarea>
         </div>
-        <input type="submit" value="Send!" class="btn" />
+        <button type="submit" class="btn">Send!</button>
       </form>
       <div class="navigation">
         <div class="links">
